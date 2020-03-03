@@ -16,10 +16,6 @@ func segmentShellVar(p *powerline) {
 				Foreground: p.theme.ShellVarFg,
 				Background: p.theme.ShellVarBg,
 			})
-		} else {
-			warn("Shell variable " + shellVarName + " is empty.")
 		}
-	} else {
-		warn("Shell variable " + shellVarName + " does not exist.")
 	}
 }
