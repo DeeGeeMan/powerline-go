@@ -24,8 +24,8 @@ func segmentNode(p *powerline) {
 			if err == nil {
 				p.appendSegment("node-version", pwl.Segment{
 					Content:    pkg.Version + " \u2B22",
-					Foreground: p.theme.NodeFg,
-					Background: p.theme.NodeBg,
+					Foreground: 232, //p.theme.NodeFg,
+					Background: 229, //p.theme.NodeBg,
 				})
 			}
 		}

@@ -14,7 +14,7 @@ func segmentShellVar(p *powerline) {
 			p.appendSegment("shell-var", pwl.Segment{
 				Content:    varContent,
 				Foreground: 15,  //p.theme.ShellVarFg,
-				Background: 239, //p.theme.ShellVarBg,
+				Background: 233, //p.theme.ShellVarBg,
 			})
 		}
 	}
