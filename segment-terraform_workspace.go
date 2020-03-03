@@ -17,7 +17,7 @@ func segmentTerraformWorkspace(p *powerline) {
 			p.appendSegment("terraform-workspace", pwl.Segment{
 				Content:    string(workspace),
 				Foreground: p.theme.TFWsFg,
-				Background: p.theme.TFWsBg,
+				Background: 56, //p.theme.TFWsBg,
 			})
 
 		}
