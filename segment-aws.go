@@ -15,7 +15,7 @@ func segmentAWS(p *powerline) {
 		}
 		p.appendSegment("aws", pwl.Segment{
 			Content:    profile + r,
-			Foreground: p.theme.AWSFg,
+			Foreground: 232, //p.theme.AWSFg,
 			Background: p.theme.AWSBg,
 		})
 	}
