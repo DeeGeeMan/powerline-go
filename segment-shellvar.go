@@ -13,8 +13,8 @@ func segmentShellVar(p *powerline) {
 		if varContent != "" {
 			p.appendSegment("shell-var", pwl.Segment{
 				Content:    varContent,
-				Foreground: 15,  //p.theme.ShellVarFg,
-				Background: 233, //p.theme.ShellVarBg,
+				Foreground: 0,  //p.theme.ShellVarFg,
+				Background: 35, //p.theme.ShellVarBg,
 			})
 		}
 	}
